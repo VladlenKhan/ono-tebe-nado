@@ -38,6 +38,7 @@
     background: rgba(0, 0, 0, 0.6);
     z-index: 0;
 }
+
 .aligned-text {
     color: #FFF;
     font-size: 100px;
@@ -45,29 +46,31 @@
     display: block;
     letter-spacing: 30px;
     text-transform: uppercase;
-    
+
 }
+
 .aligned-text_left {
     text-align: left;
-   
+
 }
 
 .aligned-text_center {
     text-align: center;
     line-height: 100%;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .aligned-text_right {
     text-align: right;
     line-height: 100%;
-    padding-top:20px;
-    
+    padding-top: 20px;
+
 }
 
 .letter-spacing-extended {
-    letter-spacing:60px;
+    letter-spacing: 60px;
 }
+
 .no-letter-spacing {
     letter-spacing: 0;
 }
@@ -99,8 +102,6 @@
     text-underline-offset: 3.5px;
 }
 
-
-
 .header__logo {
     padding-right: 184px;
 }
@@ -125,7 +126,7 @@
     width: 100%;
     position: relative;
     z-index: 1;
- 
+
 }
 
 .cover__block {
@@ -181,37 +182,16 @@
 
 }
 
-.card_type_film  {
+.card_type_film {
     background: url("../images/card-lot-01.jpg") no-repeat;
-    height: 100%;
-    padding: 51px 40px 48px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
 }
 
-.card_type_book  {
+.card_type_book {
     background: url("../images/card-lot-02.jpg") no-repeat;
-    height: 100%;
-    padding: 51px 40px 48px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
 }
 
 .card_type_picture {
     background: url("../images/card-lot-03.jpg") no-repeat;
-    height: 100%;
-    padding: 51px 40px 48px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
 }
 
 .card-background {
@@ -220,6 +200,12 @@
     background-position: center center;
     background-size: cover;
     position: relative;
+    padding: 51px 40px 48px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 
 }
 
@@ -261,7 +247,7 @@
     display: block;
 }
 
- 
+
 .about {
     padding: 100px 10px 181px;
     display: flex;
@@ -275,7 +261,7 @@
     justify-content: center;
     width: 240px;
     height: 240px;
-    border-radius: 120px;
+    border-radius:50%;
     background-color: #000;
 }
 
@@ -301,7 +287,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:24px;   
+    gap: 24px;
     flex-direction: column;
     color: #000;
     font-size: 20px;
@@ -348,7 +334,7 @@
     text-underline-offset: 3.5px;
 }
 
-.footer__social-list{
+.footer__social-list {
     padding: 0 0 43px 20px;
     display: flex;
     align-items: center;
